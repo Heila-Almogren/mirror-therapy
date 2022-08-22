@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/sessionName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:gravity="start"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/sessionValue"
+            android:layout_width="33dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#ccc" />
+
+
+</LinearLayout>
